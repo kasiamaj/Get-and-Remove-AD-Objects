@@ -1,1 +1,1 @@
-﻿Get-ADComputer -Filter * -SearchBase "OU=WS, OU=Nodes, DC=hccnet, DC=heartland, DC=edu" -properties * | Select Name, Lastlogondate, IPv4Address | Export-csv C:\users\burwood\NodeExportnew.csv
+﻿Get-ADComputer -Filter * -SearchBase "OU=WS, OU=Nodes, DC=#insertname, DC=#insertname, DC=#insertname" -properties * | Select Name, Lastlogondate, IPv4Address | Export-csv C:\users\burwood\NodeExportnew.csv
